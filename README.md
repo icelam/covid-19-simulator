@@ -2,6 +2,8 @@
 
 > HTML5 particles collision detection to simulate the spread of COVID-19.
 
+![Preview](docs/preview.gif)
+
 ### Installation ###
 
 * `yarn install`
@@ -20,6 +22,8 @@ All the build files can be found in `/dist` folder.
 
 * Pug
 * CSS3
+* JavaScript
+* HTML% Canvas
 
 ### Change Log ###
 * Click [here](CHANGELOG.md) to view change log
