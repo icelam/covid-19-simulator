@@ -1,0 +1,73 @@
+body {
+  overflow: hidden;
+  background-color: $color-background;
+  color: $color-text;
+}
+
+canvas {
+  background-color: $color-background;
+}
+
+.button {
+  display: inline-block;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: none;
+  background-color: $color-button-background-blue;
+  color: $color-button-text;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1em;
+  font-family: inherit;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  & + & {
+    margin-left: 0.5rem;
+  }
+
+  &--red {
+    background-color: $color-button-background-red;
+  }
+}
+
+.info-block {
+  position: fixed;
+  top: 1.25rem;
+  left: 1.25rem;
+  opacity: 0.85;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 0 0 0.5rem;
+  }
+
+  @media screen and (max-width: 575px) {
+    &__title {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.counter-block {
+  position: fixed;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  padding: 0.25rem;
+  background-color: rgba($color-white, 0.5);
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+#toggleButton {
+  min-width: 7rem;
+}
