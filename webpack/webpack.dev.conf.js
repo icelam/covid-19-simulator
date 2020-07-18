@@ -2,7 +2,7 @@
 const path = require('path');
 const fs = require('fs');
 const Webpack = require('webpack');
-const merge = require('webpack-merge');
+const { merge } = require('webpack-merge');
 const dotenv = require('dotenv');
 const autoprefixer = require('autoprefixer');
 const baseWebpackConfig = require('./webpack.base.conf');
