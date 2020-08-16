@@ -1,6 +1,6 @@
 {
   "name": "covid-19-simulator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTML5 particles collision detection to simulate the spread of COVID-19.",
   "private": true,
   "scripts": {
